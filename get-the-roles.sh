@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ansible-galaxy role install -p roles geerlingguy.postgresql
+ansible-galaxy role install -p roles -r requirements.yml
