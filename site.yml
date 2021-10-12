@@ -12,6 +12,9 @@
 
   roles:
     - role: geerlingguy.postgresql
+      tags: postgresql
     - role: geerlingguy.apache
+      tags: apache
     - role: geerlingguy.php
+      tags: php
 
