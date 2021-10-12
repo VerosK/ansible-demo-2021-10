@@ -1,0 +1,12 @@
+
+postgresql_users:
+  - name: demo
+    password: demo
+  - name: admin
+    password: nbusr123
+
+postgresql_databases:
+  - name: workers
+  - name: demo
+    state: absent
+
