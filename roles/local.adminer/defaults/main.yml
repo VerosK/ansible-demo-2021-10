@@ -1,0 +1,6 @@
+
+adminer_directory: /opt/adminer
+adminer_src_url:
+  https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php
+adminer_src_checksum:
+  sha256:2fd7e6d8f987b243ab1839249551f62adce19704c47d3d0c8dd9e57ea5b9c6b3

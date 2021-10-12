@@ -1,0 +1,14 @@
+
+- name: Ensure adminer directory
+  file:
+    path: '{{ adminer_directory }}'
+    state: directory
+
+- name: Download the script
+  get_url:
+    url: '{{ adminer_src_url }}'
+    dest: '{{ adminer_directory }}/index.php'
+    checksum: '{{ adminer_src_checksum }}'
+    mode: '0644'
+    backup: yes
+
