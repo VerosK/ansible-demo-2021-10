@@ -1,0 +1,10 @@
+
+postgresql_users:
+  - name: demo
+    password: demo
+  - name: admin
+    password: nbusr123
+
+postgresql_databases:
+  - name: demo
+    owner: demo
