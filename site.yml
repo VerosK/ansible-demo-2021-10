@@ -20,3 +20,10 @@
     - role: local.adminer
       tags: adminer
 
+  tasks:
+    - name: allow HTTP to connect DB
+      seboolean:
+        persistent: true
+        name: httpd_can_network_connect_db
+        state: true
+      tags: selinux
